@@ -35,7 +35,7 @@ Author: Perfect Point Marketing
 
 html, body{
 height:100%;
-font-size:13px;
+font-size:15px;
 }
 a{
 color:#57BDDB;
@@ -236,6 +236,9 @@ text-transform:uppercase;
 }
 #about .page-title{
 margin-top:60px;
+}
+.img-about{
+  padding-top: 10%;
 }
 .btn-filled, .btn-bordered{
 /*border-radius*/
@@ -516,6 +519,8 @@ opacity:.6;
 .team-item{
 background:#fff;
 text-align:center;
+transition: 0.5s ease;
+height: 570px;
 }
 .team-item h2{
 color:#334852;
@@ -531,8 +536,10 @@ font-weight:300;
 .team-item p{
 }
 .social-profile{
-padding-bottom:20px;
-margin-bottom:20px;
+padding-bottom:10px;
+margin-bottom:10px;
+padding-top: 5px;
+margin-top: 5px;
 }
 .social-profile a{
 color:#86989d;
@@ -1123,4 +1130,13 @@ background:#2C3E50;
 }
 .setting_panel .color_lists span#magenta_color{
 background:#8E44AD;
+}
+.developer-footer{
+  background-color:#181818; 
+  font-size: 12px;
+  transition: .5s ease;
+}
+.developer-footer:hover{
+  text-decoration: none;
+  color: white;
 }
